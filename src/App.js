@@ -1,9 +1,10 @@
 import './App.css';
+import UserDetail from './components/UserDetail';
 
 function App() {
   return (
     <div className="App">
-      <h2>Usecontext API</h2>
+      <UserDetail />
     </div>
   );
 }
